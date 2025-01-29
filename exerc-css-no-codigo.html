@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício CSS no Código-Fonte</title>
+    <!-- <link href="qualquer-nome.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <style>
+      * {
+        margin: auto;
+        box-sizing: border-box;
+      }
+
+      header.topo {
+        background-color: rgb(197, 236, 236);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      div.topo-dir {
+        font-size: 80px;
+        font-family: fantasy;
+      }
+
+      div.topo-esq {
+        border: outset 12px pink;
+      }
+
+      /* div.topo-esq:hover {
+        padding: 15px;
+        cursor: pointer;
+      } */
+    </style>
+
+    <header class="topo">
+      <div class="topo-esq">
+        <b>Professor:</b> Coiso Coisado de Coisando
+        <br />
+        <b>Aluno:</b> Junos Junoaldo Juninho <br /><br />
+        <b>Exercício:</b> Montar uma homepage incorporando o css no documento
+        html
+      </div>
+      <div class="topo-dir">LIÇÃO DE CASA</div>
+    </header>
+  </body>
+</html>
