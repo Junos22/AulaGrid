@@ -6,37 +6,37 @@
     <title>Aprenda a criar a logo do windows do Billzinho Gaytes</title>
   </head>
   <body class="fundo">
-    <style>
+    <style> /* Abertura do código CSS */
       * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+        margin: 0; /* define a não existência de margens em torno de um elemento, dado pelo browser */
+        padding: 0; /* define o não espaçamento em torno do conteúdo dentro de um elemento */
+        box-sizing: border-box; /* faz com que o browser entenda que o tamanho/área do elemento se delimite apenas às propriedades width e height */
       }
 
       body.fundo {
-        background-color: blueviolet;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: row;
+        background-color: blueviolet; /* define uma cor para o fundo do corpo do site */
+        display: flex; /* flexibiliza como um determinado elemento será renderizado no site */
+        justify-content: center; /* define que os elementos-filhos estarão CENTRALIZADOS no alinhamento horizontal dentro do conteiner */
+        align-items: center; /* define que os elementos-filhos estarão CENTRALIZADOS no alinhamento vertical dentro do conteiner */
+        width: 100vw; /* define qua a largura do viewport seja de 100% (1vw = 1/100 do viewport) */
+        height: 100vh; /* define qua a altura do viewport seja de 100% (1vh = 1/100 do viewport) */
+        flex-direction: row; /* determina que os elementos sejam dispostos EM LINHA dentro do container */
       }
 
       div.corpo-logo {
-        display: grid;
-        grid-template: 200px 200px / 200px 200px; /* pode trocar os px por auto */ /*a / separa linhas de colunas (respectivamente)*/
-        width: 400px;
-        height: 400px;
-        border: outset 4px black;
-        box-shadow: 5px 5px 5px 5px black;
+        display: grid; /* determina que o elemento adiquira a propriedade de grade (grid) */
+        grid-template: 200px 200px / 200px 200px; /* pode trocar os px por auto */ /*a "/" separa linhas de colunas (respectivamente)*/ /*determina a largura e altura das grades */
+        width: 400px; /* largura da div */
+        height: 400px; /* altura da div */
+        border: outset 4px black; /* determina a existência e o tipo de borda presente na div, assim como atrbui uma cor e espessura às bordas */
+        box-shadow: 5px 5px 5px 5px black; /*determina que a caixa possua uma sombra, na cor e espessura determinados */
       }
 
       div.quadrante1 {
         /* width: 100%;
         height: 100%; */
-        background-color: orangered;
-        border-top: solid 8px black;
+        background-color: orangered; /* determina a cor de fundo da célula da grid */
+        border-top: solid 8px black; /* determina a espessura de uma bord específica da célula da grid */
         border-left: solid 8px black;
         border-right: solid 4px black;
         border-bottom: solid 4px black;
@@ -66,7 +66,7 @@
         border-bottom: solid 8px black;
         /* border: solid 3px black; */
       }
-    </style>
+    </style> <!-- fechamento da área de programação CSS -->
 
     <div class="corpo-logo">
       <div class="quadrante1"></div>
